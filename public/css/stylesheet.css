@@ -1,0 +1,46 @@
+body {
+  background-color: pink;
+}
+
+
+header {
+  background-color: yellow;
+  width: 605px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+input {
+  height: 50px;
+  width: 400px;
+
+}
+
+button {
+  color: red;
+  background-color: DarkOliveGreen;
+  height: 50px;
+  width: 200px;
+}
+
+.list-group-item {
+  background-color: DarkKhaki;
+  width: 605px;
+  height: 50px;
+  font-size: 100%;
+  display: flex;
+}
+
+.status {
+  background-color: yellow;
+  position: absolute;
+  right: 0px;
+  height: 48px;
+  top: 0px;
+  line-height: 50px;
+  border-style: solid;
+  border-color: black;
+}
+
+
