@@ -75,13 +75,46 @@ Good luck!
 ## about this challenge specifically
 
 * so I need to set up an angular project. 
-* Just to think about the fironend. Load a single page and start playing with it. 
+* Just to think about the frontend. Load a single page and start playing with it. 
 * this is the focus: 
   * well written, well structured acceptance and unit tests
   * clear and expressive JavaScript
   * good HTML5 markup
-* be carful with all the packages / instalation instructions
-* use angular directives: 
-  *... 
+
+## tips:
+
+* don't use <div>s (still not clear use what instead?)
+* use array syntax for dependency injection (still not clear, instead of using what?)
+* be clear with all the packages / instalation instructions
+* use angular directives: https://docs.angularjs.org/api/ng#directive
+* use Angular fileters https://docs.angularjs.org/api/ng/filter/filte
+* use "controller as" syntax. i.e. don't use $scope
+* READ: http://stackoverflow.com/questions/18414012/what-does-angularjs-do-better-than-jquery
+
+## What to do?
+
+1) set up a project 
+2) strat with a feature test - let it fail
+3) move to a unit test and keep going! 
+
+## list of featire tests? (maybe these are unit tests?, not clear): 
+
+* it has a title "My todo list"
+* it has a form to put in a todo item and a submit button (ot maybe enter?)
+* it has a litst of inputed items
+* it have a completed checkbox
+* items can be edited 
+
+## list of bonus unit tests: 
+
+* Items can be filtered
+ * all
+ * completed 
+ * in progress
+* it has a counter field 
+* it has a delete button
+* it can delete completed items 
+
+
 
 
