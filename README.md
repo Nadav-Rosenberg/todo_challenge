@@ -64,3 +64,7 @@ Don't worry about deployment, and make sure you read the CONTRIBUTING.md when su
 
 Good luck!
 
+# Nadav's Notes: To be edited before pull request. 
+
+
+
