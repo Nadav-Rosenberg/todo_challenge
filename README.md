@@ -66,5 +66,22 @@ Good luck!
 
 # Nadav's Notes: To be edited before pull request. 
 
+## few learnings from previous challenges: 
+
+* MVP: always have something working and tested. Better to have working and tested scooter than broken facy car!
+* actually, I'm going to focus only on this and will write a list of MVPs...
+* Second thing, invest in submission: refactor, good names, Hound, Etc. 
+
+## about this challenge specifically
+
+* so I need to set up an angular project. 
+* Just to think about the fironend. Load a single page and start playing with it. 
+* this is the focus: 
+  * well written, well structured acceptance and unit tests
+  * clear and expressive JavaScript
+  * good HTML5 markup
+* be carful with all the packages / instalation instructions
+* use angular directives: 
+  *... 
 
 
