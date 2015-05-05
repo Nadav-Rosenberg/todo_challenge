@@ -19,13 +19,20 @@ describe('TodoList', function() {
       ctrl.addTask();
       ctrl.newTask = "fixing the hunger";
       ctrl.addTask();
-      expect(ctrl.taskList).toEqual(["Cleaning the house", "fixing the hunger"]);
+      expect(ctrl.taskList).toEqual(
+        [["Cleaning the house", "Active"], ["fixing the hunger", "Active"]]);
     });
 
     it('Clean the add task field after adding a task', function() {
       ctrl.newTask = "Cleaning the house";
       ctrl.addTask();
       expect(ctrl.newTask).toEqual("");
+    });
+
+    it('It marks the task as active', function() {
+      ctrl.newTask = "Cleaning the house";
+      ctrl.addTask();
+      expect(ctrl.taskList[0][1]).toEqual("Active");
     });
   });
 });

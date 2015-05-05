@@ -20,9 +20,7 @@
         <button class="btn" ng-click="todoCtrl.addTask()">Add Task</button>
       </form>
       <ul class="list-group" ng-repeat="task in todoCtrl.taskList.slice().reverse()">
-        <li>
-          {{task}}
-        </li>
+        <li>{{task[0]}}<input type="checkbox" class="check-box" ng-model="master"></li>
       </ul>
     </section>
   </body>

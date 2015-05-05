@@ -115,6 +115,14 @@ Good luck!
 * it has a delete button
 * it can delete completed items 
 
+## some reflections after Friday and Sat morning
+
+* about protractor: importnat to understand that things taks time when you work on the brwoeser (protractor), so the tests must use a specific protractol syntex to handle the events (I think), happened when tackling the array
+
+* in both test frames, very importnat to understand which variables / elemets are available, could cuase quit some issues
+* trick to reverse array: .slice().reverse()
+
+
 
 
 

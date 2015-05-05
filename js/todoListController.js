@@ -3,8 +3,8 @@ todoList.controller('TodoListController', [function() {
   self.taskList = [];
   
   self.addTask = function() {
-    self.taskList.push(self.newTask);
+    self.taskList.push([self.newTask, "Active"]);
     self.newTask = "";
   };
-  
+
 }]);
