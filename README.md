@@ -1,3 +1,12 @@
+# Todo Challenge - Nadav 
+
+I finished only a very basic version of the todo list. The plan was to add next copleted vs active in the model, to enable editing and to style the site. 
+
+All finctionality is tested both in Karma and in Protractor. 
+
+________________
+________________
+
 # Todo Challenge
 
 * Deadline: submit completed pull request by 9am on Monday
